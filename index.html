@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="btn">
+    <h1>Student List Manager</h1>
+
+    <input type="text" id="studentInput" placeholder="Enter student name" style="width: 360px;">
+
+    <button onclick="addStudent()">Add Student (push)</button>
+    <button onclick="removeLast()">Remove Last (pop)</button>
+    <button onclick="removeFirst()">Remove First (shift)</button>
+    <button onclick="addFirst()">Add at Start (unshift)</button>
+    <button onclick="findIndex()">Find Student Index</button>
+
+    <p id="count"></p>
+    <ul id="studentList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
